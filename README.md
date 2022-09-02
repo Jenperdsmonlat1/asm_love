@@ -20,5 +20,5 @@ ld -m elf_i386 <your_file.o> -o <your_program_linked>
 
 **NB: Vous pouvez aussi compiler les différents programmes via les makefile fournit en exécutant la commande suivante:**
 ```shell
-make
+make && make clean
 ```
